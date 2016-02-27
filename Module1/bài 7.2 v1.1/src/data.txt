@@ -1,0 +1,3 @@
+BruceWayne, 03924934938, 4/2/1975, BruceWayne@gmail.com, ./src/BruceWayne.jpg
+HughJackman, 0986456456, 9/5/1973 HughJackman73@hotmail.com, ./src/HughJackman.jpg
+TonyStark, 0786446765, 5/11/1986, bigTonyStark@yahoo.com, ./src/TonyStark.jpg

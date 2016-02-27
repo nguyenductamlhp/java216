@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<group>
+		<GroupName>Phân xưởng sản xuất</GroupName>
+		<person>
+			<id>1</id>
+			<name>trần văn a</name>
+			<sex>Nan</sex>
+			<birth>1/1/1895</birth>
+			<salary>2000000</salary>
+			<address>q8, tphcm</address>		
+		</person>
+		<person>
+			<id>2</id>
+			<name>Lê thị e</name>
+			<sex>Nữ</sex>
+			<birth>3/4/1994</birth>
+			<salary>1500000</salary>
+			<address>bình dương</address>		
+		</person>
+	</group>
+	<group>
+		<GroupName>Phân xưởng lắp ráp</GroupName>
+		<person>
+			<id>3</id>
+			<name>Phạm hi</name>
+			<sex>Nam</sex>
+			<birth>9/5/1893</birth>
+			<salary>3000000</salary>
+			<address>Q5, tp hcm</address>		
+		</person>
+		<person>
+			<id>4</id>
+			<name>Nguyen kim</name>
+			<sex>Nam</sex>
+			<birth>8/6/1990</birth>
+			<salary>3000000</salary>
+			<address>Q1, tphcm</address>		
+		</person>
+	</group>
+</root>

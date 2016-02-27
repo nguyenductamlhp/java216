@@ -1,0 +1,112 @@
+!SESSION 2015-12-25 14:03:08.014 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 2 2015-12-25 14:03:41.314
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.common.jdt.debug.ui, page: org.jboss.tools.common.jdt.debug.ui.preferences.RemoteDebugPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2015-12-25 14:03:41.321
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2015-12-25 14:03:41.322
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-25 14:03:43.827
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\nguyenductamlhp'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 4 2015-12-25 14:04:24.066
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: DemoJboss
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:794)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete '/DemoJboss/build/classes/controller'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\nguyenductamlhp\Dropbox\PROGRAMING\BT_LTV_JAVA\Module4\DemoJboss\build\classes\controller\servlet.
+Contains: Could not delete: C:\Users\nguyenductamlhp\Dropbox\PROGRAMING\BT_LTV_JAVA\Module4\DemoJboss\build\classes\controller.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2015-12-25 14:04:24.073
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2015-12-25 14:04:24.073
+!MESSAGE Could not delete '/DemoJboss/build/classes/controller'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\nguyenductamlhp\Dropbox\PROGRAMING\BT_LTV_JAVA\Module4\DemoJboss\build\classes\controller\servlet.
+Contains: Could not delete: C:\Users\nguyenductamlhp\Dropbox\PROGRAMING\BT_LTV_JAVA\Module4\DemoJboss\build\classes\controller.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2015-12-25 14:04:24.073
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2015-12-25 14:04:24.073
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-12-25 14:04:24.073
+!MESSAGE Could not delete: C:\Users\nguyenductamlhp\Dropbox\PROGRAMING\BT_LTV_JAVA\Module4\DemoJboss\build\classes\controller\servlet.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-12-25 14:04:24.073
+!MESSAGE Could not delete: C:\Users\nguyenductamlhp\Dropbox\PROGRAMING\BT_LTV_JAVA\Module4\DemoJboss\build\classes\controller.
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2015-12-25 14:04:34.885
+!MESSAGE cacheFile=file:/C:/Users/nguyenductamlhp/Dropbox/PROGRAMING/BT_LTV_JAVA/Module4/.metadata/.plugins/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
